@@ -1,0 +1,15 @@
+.card{
+    text-align: center;;
+    border-color: red;
+    overflow: hidden;
+    background-color: royalblue;
+    border-color: saddlebrown;
+    border-radius: 100px;
+    padding: 20px;
+    max-width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+    
+   
