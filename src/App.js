@@ -11,7 +11,7 @@ class App extends Component {
 
   }
   componentDidMount(){
-    fetch('https://api.opensea.io/api/v1/assets?format=json&limit=20&offset=0&order_direction=desc').then((res)=>{
+    fetch('https://api.opensea.io/api/v1/assets?format=json&limit=1000&offset=0&order_direction=desc').then((res)=>{
       res.json().then((result)=>{
         this.setState({data:result.assets})
       })
